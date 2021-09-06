@@ -1,8 +1,8 @@
 defmodule ThrowawayWeb.TestViewLive do
-  use ThrowawayWeb, :live_view
+  use Surface.LiveView
 
   def render(assigns) do
-    ~H"""
+    ~F"""
     <p>Test view</p>
     """
   end
